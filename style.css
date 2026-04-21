@@ -140,6 +140,11 @@ img {
     font-size: 16px;
     color: #333333;
     text-align: center;
-    margin-top: 40px;
+    margin: 48px auto 64px;
 }
 
+.marca img{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
