@@ -1,38 +1,126 @@
-:root{
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-  border: #D9D9D9 solid 1px;
+
+body {
+    background-color: #F5F4F0;
+}
+
+.page {
+  max-width: 1120px;
+  height: 3054px;
+  margin: 88px auto;
+  padding: auto;
+  height: auto;
   background-color: #F5F4F0;
-  margin: 88px 80px 137px 80px;
-  width: auto;
+}
+
+img {
+    border-radius: 28px;
+    width: 100%;
+    height: auto;
+}
+
+.header{
+  margin-bottom: 40px;
+    h2 {
+        font-size: 16px;
+        color: #E1624F;
+        margin-bottom: 8px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+}
+
+.cristo-redentor {
+    footer {
+      margin-top: 24px;
+      margin-bottom: 4px;
+    }
+  
 }
 .divider {
-  width: 100%;
-  height: 1px;
-  margin: 40px 0px;
-  background-color: #d9d9d9;
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-bottom: 64px;
+    margin-top: 40px;
 }
 
-p{
-  font-size: 16px;
+.foz-do-iguacu {
+    h3 {
+        font-size: 16px;
+        color: #E1624F;
+        margin-bottom: 8px;
+    }
+    h2 {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    .atração {
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 64px;
+    }
+    .foz {
+      h2 {
+        font-size: 38px;
+        margin-top: 8px;
+      }
+      #foz {
+        font-size: 16px;
+        color: #333333;
+        margin-bottom: 40px;
+      }
+    }
 }
 
-#header{
-  padding-bottom: 40px;
-}
-section + header{
-  margin-top: 24px;
+.paodeacucar {
+    h2 {
+      font-size: 28px;
+      margin-bottom: 4px;
+      margin-top: 20px;
+    }
+    .pao {
+      font-size: 16px;
+      color: #333333;
+      margin-bottom: 48px;
+    }
 }
 
-img{
-  border-radius: 28px;
-  width: 100%;
-  height: auto;
+.parque-ibirapuera {
+    h2 {
+      font-size: 28px;
+      margin-bottom: 4px;
+      margin-top: 20px;
+    }
+    .parque {
+      font-size: 16px;
+      color: #333333;
+      /* margin-bottom: 4px; */
+    }
+}
+.divider-baixo {
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
-#cristo-redentor{
-  text-align: center;
-  color: #1B1B1B;
+.baixo {
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
 }
+
+.marca {
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    margin-top: 40px;
+}
+
