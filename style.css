@@ -6,7 +6,7 @@
 
 :root {
     font-family: "Open Sans", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #333333;
 }
 
@@ -16,31 +16,31 @@ body {
 }
 
 .page {
-  max-width: 1120px;
-  height: 3054px;
-  margin: 88px auto;
-  padding: auto;
-  height: auto;
-  background-color: #F5F4F0;
+    max-width: 1120px;
+    height: 3054px;
+    margin: auto;
+    padding: 88px 80px 137px 80px;
+    background-color: #F5F4F0;
 }
 
 img {
     border-radius: 28px;
     width: 100%;
     object-fit: fill;
-    max-width: 2000px;
-    max-height: 400px;
-    height: auto;
+    max-width: 1120px;
+    max-height: 660px;
 }
 
 .header{
   margin-bottom: 40px;
     h2 {
+        font-weight: bold;
         font-size: 16px;
         color: #E1624F;
         margin-bottom: 8px;
     }
     h1 {
+        font-weight: bold;
         font-size: 36px;
         color: #1B1B1B;
     }
@@ -48,7 +48,7 @@ img {
 
 .cristo-redentor {
     footer {
-      margin-top: 24px;
+      margin-top: 48px;
       margin-bottom: 4px;
     }
   
@@ -62,25 +62,59 @@ img {
 }
 
 h4 {
+    font-weight: bold;
     margin-top: 20px;
     font-size: 16px;
     color: #000000;
     margin-bottom: 8px;
 }
 
-ul {
+.primeira{
     color: #0C51A7;
     margin-left: 25px;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
+    .explorar{
+    color: #E5245E;
+    }
+    .experiencia{
+    color: #E95E10;
+    }
+}
+
+.meio{
+    color: #0C51A7;
+    margin-left: 25px;
+    margin-bottom: 48px;
+    .fotos{
+    color: #E5245E;
+    }
+    .apresentações{
+    color: #E95E10;
+    }
+}
+
+.ultima{
+    color: #0C51A7;
+    margin-left: 25px;
+    margin-bottom: 48px;
+
+    .caminhada{
+     color: #E5245E;
+    }
+    .esportes{
+    color: #E95E10;
+    }
 }
 
 .foz-do-iguacu {
     h3 {
+        font-weight: bold;
         font-size: 16px;
         color: #E1624F;
         margin-bottom: 8px;
     }
     h2 {
+        font-weight: bold;
         font-size: 32px;
         margin-bottom: 8px;
         color: #1B1B1B
@@ -123,7 +157,7 @@ ul {
 
 .parque-ibirapuera {
     h2 {
-      font-weight: bold;
+     font-weight: bold;
       font-size: 38px;
       margin-bottom: 4px;
       margin-top: 20px;
@@ -143,7 +177,6 @@ ul {
 }
 
 .baixo {
-    font-weight: bold;
     font-size: 16px;
     color: #333333;
     text-align: center;
