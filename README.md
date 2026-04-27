@@ -21,7 +21,7 @@ Este projeto foi fundamental para conectar a teoria acadêmica de Engenharia de 
 
 ## 📸 Demonstração
 
-https://local-turismo.vercel.app/)
+https://local-turismo.vercel.app/
 
 ---
 Desafio concluído como parte da jornada para me tornar um desenvolvedor Full-Stack. 🚀
