@@ -68,48 +68,31 @@ h4 {
     color: #000000;
     margin-bottom: 8px;
 }
+.sub {
+    color: #E5245E;
+    margin-top: 2px;
+}
+.sub2 {
+color: #E95E10;
+    margin-top: 2px;
+}
 
 .primeira{
     color: #0C51A7;
     margin-left: 25px;
     margin-bottom: 48px;
-    .explorar{
-    color: #E5245E;
-    margin-top: 2px;
-    }
-    .experiencia{
-    color: #E95E10;
-    margin-top: 2px;
-    }
 }
 
 .meio{
     color: #0C51A7;
     margin-left: 25px;
     margin-bottom: 48px;
-    .fotos{
-    color: #E5245E;
-    margin-top: 2px;
-    }
-    .apresentações{
-    color: #E95E10;
-    margin-top: 2px;
-    }
 }
 
 .ultima{
     color: #0C51A7;
     margin-left: 25px;
     margin-bottom: 48px;
-
-    .caminhada{
-     color: #E5245E;
-     margin-top: 2px;
-    }
-    .esportes{
-    color: #E95E10;
-    margin-top: 2px;
-    }
 }
 
 .foz-do-iguacu {
@@ -192,7 +175,8 @@ h4 {
     font-size: 16px;
     color: #333333;
     text-align: center;
-    margin: 48px auto 64px;
+    margin-top: 65px;
+    padding-bottom: 48px;
 }
 
 .marca img{
